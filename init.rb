@@ -18,5 +18,4 @@ end
 
 ActionDispatch::Callbacks.to_prepare do
   ApplicationHelper.send(:include, RedmineVisibleMemberEmail::ApplicationHelperPatch) unless ApplicationHelper.included_modules.include? RedmineVisibleMemberEmail::ApplicationHelperPatch
-  MembersHelper.send(:include, RedmineVisibleMemberEmail::MembersHelperPatch) unless MembersHelper.included_modules.include? RedmineVisibleMemberEmail::MembersHelperPatch
 end
