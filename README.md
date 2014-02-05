@@ -1,6 +1,6 @@
-# Redmine Backlogs extended sprints plugin
+# Redmine Visible Member Email plugin
 
-Redmine plugin for Backlogs users which enables displaying `due date` for stories assigned to Sprints in Master Backlogs sprint tables.
+Redmine plugin which enables displaying user emails next to usernames on project members settings page (for new members, as well as inside the table containing users already assigned).
 
 # Requirements
 
@@ -9,14 +9,9 @@ Developed & tested on Redmine 2.3.3.
 # Installation
 
 1. Go to your Redmine installation's plugins/ directory.
-2. `git clone http://github.com/efigence/redmine_backlogs_extended_sprints`.
-3. Go back to Redmine root directory and run `bundle`.
+2. `git clone http://github.com/efigence/redmine_visible_member_email`.
 3. Restart Redmine.
 
-# Configuration
+# Uninstall
 
-To enable/disable plugins' functionality visit Administration -> Plugin. Afterwards, click on `Configure` link next to the plugin name.
-
-# Note
-
-Plugin depends on [deface](https://github.com/spree/deface) gem which made it possible to extend original Backlogs views.
+Simply remove plugin from plugins/ directory.
