@@ -1,6 +1,6 @@
 # Redmine Visible Member Email plugin
 
-Redmine plugin which enables displaying user emails next to usernames on project members settings page (for new members, as well as inside the table containing users already assigned).
+Redmine plugin which enables displaying user emails next to usernames on project members settings page (for new members, as well as for ones already assigned).
 
 # Requirements
 
